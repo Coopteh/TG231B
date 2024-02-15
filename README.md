@@ -1,6 +1,7 @@
 # Задание 01
 - Откройте Visual Studio Code
-- создайте файл holoda.html
+- откройте Explorer \ Open folder \ Документы \ Выбрать папку \ New file
+- создайте файл holoda.html (enter)
 - наберите `!<TAB>`
 (чтобы создать структуру документа)
 - наберите заголовок (<title></title>)
