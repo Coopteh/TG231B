@@ -2,7 +2,7 @@
 
 Научиться пользоваться бесплатным инстументом работы с БД - HeidiSQL
 
-1. Скачайте [HeidiSQL Portable edition](https://www.heidisql.com/download.php?download=portable-64)
+1. Найдите в строке поиска `HeidiSQL` или на рабочем столе, либо скачайте [HeidiSQL Portable edition](https://www.heidisql.com/download.php?download=portable-64)
 2. В `Проводнике` переместите zip-архив в папку `C:\409`, разархивируйте, создайте ярлык на `heidisql.exe`, переместите его на рабочий стол
 3. Запустите сервер СУБД `mySQL` через программу `XAMPP Control Panel` (найдите в строке поиска) - нажмите кнопку Start, чтобы надпись mySQL загорелась зеленым
 4. Запустите программу `HeidiSQL` через ярлык на рабочем столе
