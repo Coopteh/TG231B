@@ -34,6 +34,7 @@ user_id INT NN
 product_id INT NN
 sum FLOAT
 ```
+Сохраните модель `File \ Save model` как `tg231b`
 <hr>
 
 ### Задание 2. - Связь между таблицами
