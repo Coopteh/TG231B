@@ -42,8 +42,19 @@ sum FLOAT
 поэтому для нее надо добавить внешние ключи
 ```
 Foreign keys
-user_key user_id CASCADE, CASCADE
-product_key product_id CASCADE, CASCADE
+user_key (Ref.table user) user_id CASCADE, CASCADE
+product_key (Ref.table product) product_id CASCADE, CASCADE
+```
+
+<hr>
+### Задание 3. - Экспорт скриптов на создание и Создание БД
+
+Последняя таблица - таблица связи между двумя другими таблицами,   
+поэтому для нее надо добавить внешние ключи
+```
+Foreign keys
+user_key (Ref.table user) user_id CASCADE, CASCADE
+product_key (Ref.table product) product_id CASCADE, CASCADE
 ```
 
 2. Запустите сервер СУБД `mySQL` через программу `XAMPP Control Panel` (найдите в строке поиска) - нажмите кнопку Start, чтобы надпись mySQL загорелась зеленым
