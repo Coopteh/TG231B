@@ -4,10 +4,9 @@
 Учебное видео [Создание базы данных MySQL Workbench](https://www.youtube.com/watch?v=ChLjnsKLoZE)  
 
 1. Найдите в строке поиска `mySQLWorkbench` и запустите программу  
-2. Запустите сервер СУБД `mySQL` через программу `XAMPP Control Panel` (найдите в строке поиска) - нажмите кнопку Start, чтобы надпись mySQL загорелась зеленым
-3. Добавьте новую модель `File \ New Model` и переименуйте ее с `myDB` на `ProductDB-TG231B`
-4. Добавьте новую диаграмму через `Add diagram`
-5. Добавьте новую таблицу (нажав на иконку с изображением таблицы)
+2. Добавьте новую модель `File \ New Model` и переименуйте ее с `myDB` на `ProductDB-TG231B`
+3. Добавьте новую диаграмму через `Add diagram`
+4. Добавьте новую таблицу (нажав на иконку с изображением таблицы)
 ```
 Название:
 user
@@ -16,7 +15,7 @@ id INT PK NN AI
 name VARCHAR(45)
 surname VARCHAR(45)
 ```
-6. Добавьте еще одну таблицу (2-ю)
+5. Добавьте еще одну таблицу (2-ю)
 ```
 Название:
 product
@@ -25,7 +24,7 @@ id INT PK NN AI
 name VARCHAR(45)
 description LONGTEXT
 ```
-7. Добавьте еще одну таблицу (3-ю)
+6. Добавьте еще одну таблицу (3-ю)
 ```
 Название:
 invoice
@@ -46,3 +45,5 @@ Foreign keys
 user_key user_id CASCADE, CASCADE
 product_key product_id CASCADE, CASCADE
 ```
+
+2. Запустите сервер СУБД `mySQL` через программу `XAMPP Control Panel` (найдите в строке поиска) - нажмите кнопку Start, чтобы надпись mySQL загорелась зеленым
