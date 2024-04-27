@@ -50,13 +50,13 @@ product_key (Ref.table product) product_id CASCADE, CASCADE
 
 ### Задание 3. - Экспорт скрипта на создание и Создание БД
 
-Выполните для загруженной модели `File \ Export \ Forward Engeneer SQL CREATE Script`
-Последняя таблица - таблица связи между двумя другими таблицами,   
-поэтому для нее надо добавить внешние ключи
-```
-Foreign keys
-user_key (Ref.table user) user_id CASCADE, CASCADE
-product_key (Ref.table product) product_id CASCADE, CASCADE
-```
-
+1. Выполните для загруженной модели `File \ Export \ Forward Engeneer SQL CREATE Script`  
+(указав название скрипта `tg-231b`, два раза нажмите `Next` и один раз `Finish`)  
 2. Запустите сервер СУБД `mySQL` через программу `XAMPP Control Panel` (найдите в строке поиска) - нажмите кнопку Start, чтобы надпись mySQL загорелась зеленым
+3. Закройте `mySQLWorkbench` и запустите программу заново
+4. Нажмите `mySQL Connection` кнопку (+) для создания нового соединения, назовите его `tg-231b-connection`  
+5. Вставьте записи языком запросов SQL в таблицу
+```
+INSERT
+```
+4. Вставьте записи языком запросов SQL
